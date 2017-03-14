@@ -11,6 +11,9 @@ var Weather = require('Weather');
 require('style!css!foundation-sites/dist/css/foundation.min.css');
 $(document).foundation();
 
+// App css
+require('style!css!ApplicationStyles')
+
 ReactDOM.render(
   <Router history={hashHistory}>
     <Route path="/" component={Main}>
